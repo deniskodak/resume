@@ -1,0 +1,34 @@
+.socials__list {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+
+.socials__item {
+  &:first-child {
+    margin-right: 30px;
+  }
+}
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: linear 200ms;
+
+  &:hover,
+  &:focus {
+    background-color: $aside-hover;
+    fill: whitesmoke;
+  }
+}
+
+.socials__icon {
+  color: currentColor;
+
+  width: 17px;
+  height: 17px;
+}

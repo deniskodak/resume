@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Denys Kodak</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Raleway:wght@400;700&display=swap"
+          rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+          integrity="sha512-ISS7cAi1PEhQ8jnbJpJZMd29NlhNj4AWYyLOSp2CE/CsHxTCu+r+t0D2yoJudVrd0/8fTVPUVDzY5Tvli75u/g=="
+          crossorigin="anonymous" />
+  </head>
+  <body>
+    <!-- Так добавляются фрагменты в главные HTML-файлы страниц. -->
+    <!-- <header class="header-section">
+      <h1 class="header__title">Denys Kodak</h1>
+    </header> -->
+    <main>
+
+      <div class="container">
+        <aside class="aside-section">
+          <div class="aside__img-box">
+            <picture class="aside__photo">
+              <source srcset="./images/me_1x.jpg 1x, ./images/me_2x.jpg 2x" media="(min-width: 1280px)">
+                <img src="./images/me_1x.jpg" alt="фото меня" width="370">
+            </picture>
+          </div>
+          <div class="contacts">
+          <h3 class="contacts__title">Contacts</h3>
+          <ul class="contacts__list">
+            <li class="contacts__item">
+              <a href="#" class="contacts__link">
+                <svg class="contacts__icon icon-phone">
+                  <use href="./images/sprite.svg#icon-phone"></use>
+                </svg>
+                +380-00-000-0000</a></li>
+            <li class="contacts__item">
+              <a href="mailto:denis.kodak@gmail.com" class="contacts__link">
+                <svg class="contacts__icon icon-phone">
+                  <use href="./images/sprite.svg#icon-mail"></use>
+                </svg>
+              denis.kodak@gmail.com</a></li>
+          </ul>
+
+          <ul class="socials__list">
+            <li class="socials__item"><a href="https://www.instagram.com/den.koda/" class="socials__link" target="_blank" aria-label="instagram">
+              <svg class="socials__icon">
+                <use href="./images/sprite.svg#icon-instagram"></use>
+              </svg> 
+              </a></li>
+            <li class="socials__item"><a href="https://www.facebook.com/DenysKodak/" class="socials__link" target="_blank" aria-label="facebook"><svg class="socials__icon">
+              <use href="./images/sprite.svg#icon-facebook"></use>
+            </svg></a></li>
+          </ul>
+          </div>
+          <div class="tech-skills">
+            <h3 class="tech__title">Tech Skills</h3>
+            <ul class="tech__list">
+              <li class="tech__item"><p class="tech__text">html5</p>
+                </li>
+              <li class="tech__item"><p class="tech__text">css3</p></li>
+              <li class="tech__item"><p class="tech__text">javascript(ec6)</p></li>
+              <li class="tech__item"><p class="tech__text">git</p></li>
+              <li class="tech__item"><p class="tech__text">node</p></li>
+              <li class="tech__item"><p class="tech__text">react</p></li>
+            </ul>
+          </div>
+
+          <div class="soft-skills">
+            <h3 class="soft__title">Soft Skills</h3>
+            <ul class="soft__list">
+              <li class="soft__item"><p class="soft__text">scrum</p> </li>
+              <li class="soft__item"><p class="soft__text">agile</p> </li>
+              <li class="soft__item"><p class="soft__text">gtd</p> </li>
+              <li class="soft__item"><p class="soft__text">teamwork</p> </li>
+            </ul>
+          </div>
+        </aside>
+
+        <section class="about-section">
+
+          <div class="about__main-info">
+          <h2 class="about__profesion-title">Frontend developer</h2>
+          <h1 class="about__title">Denys Kodak</h1>
+          <p class="about__text">When I was in shchool I wanted to became a programmer, but then choosen a profession connected with animals. And now I
+          am studying on Frontend courses to reach my old goal 🚀</p>
+            </div>
+
+          <div class="project-box">
+            <h3 class="project__title"> HTML/CSS Projects</h3>
+            <ul class="project__list">
+              <li class="project__item">
+                <a href="https://deniskodak.github.io/goit-markup-hw-08/" class="project__link" target="_blank">
+                <svg class="project__icon">
+                  <use href="./images/sprite.svg#icon-github"></use>
+                </svg>
+              </a>
+            <p class="project__description">
+              My first project, it lasts two months. Adaptive website for webstudios.
+            </p></li>
+              <li class="project__item">
+                <a href="https://deniskodak.github.io/barbershop/" class="project__link" target="_blank">
+                <svg class="project__icon">
+                  <use href="./images/sprite.svg#icon-github"></use>
+                </svg>
+              </a>
+            <p class="project__description">
+            My second project, it lasts 1 week. Barbershop adaptive website
+            </p></li>
+              <li class="project__item">
+                <a href="https://katepodolsky.github.io/ice-creame/" class="project__link" target="_blank">
+                <svg class="project__icon">
+                  <use href="./images/sprite.svg#icon-github"></use>
+                </svg>
+              </a>
+              <p class="project__description">
+                First team project, it last 1 week. Icecream website.
+              </p>
+              </li>
+            </ul>
+          </div>
+
+          <div class="courses-box">
+            <h3 class="courses__title">
+              Courses
+            </h3>
+            <div class="courses__subbox">
+            <h4 class="courses__name">"Go IT" <span class="courses__proffesion">Frontend Developer</span></h4>
+            <p class="courses__date">September 2020 - July 2021 | Online</p>
+            </div>
+            <div class="courses__subbox">
+            <h4 class="courses__name">"All inclusive" <span class="courses__proffesion">English intermediate</span></h4>
+            <p class="courses__date">September 2017 - march 2018 | Kyiv</p>
+            </div>
+          </div>
+
+          <div class="eductation-box">
+            <h3 class="education__title">Education</h3>
+            <h4 class="education__name">National university of life and environmental sciences of Ukraine</h4>
+            <h5 class="education__proffesion">Technologist for the production and processing of livestock products</h5>
+            <p class="education__date">Septermber 2016 - up to now | Ukraine</p>
+          </div>
+        </section>
+      </div>
+    </main>
+    <!-- Скрипт идёт последним в разметке. В нём уже подключен главный SASS-файл. -->
+    <script src="./index.js"></script>
+    
+  </body>
+</html>

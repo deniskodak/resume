@@ -1,0 +1,20 @@
+.soft-skills {
+  padding: 0 40px 0;
+}
+
+.soft__item {
+  margin-left: 15px;
+
+  color: $aside-hover;
+}
+
+.soft__title {
+  @extend %title;
+
+  margin-bottom: 20px;
+}
+
+.soft__text {
+  color: $text-black;
+  text-transform: uppercase;
+}

@@ -1,0 +1,42 @@
+.contacts {
+  padding: 60px 40px 0px;
+  margin-bottom: 55px;
+}
+
+.contacts__title {
+  @extend %title;
+
+  margin-bottom: 20px;
+}
+
+.contacts__list {
+  list-style: none;
+
+  margin-bottom: 10px;
+}
+.contacts__item {
+  &:first-child {
+    margin-bottom: 5px;
+  }
+}
+.contacts__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: linear 200ms;
+
+  &:hover,
+  &:focus {
+    transform: translateY(-10%);
+    color: $aside-hover;
+    fill: $aside-hover;
+  }
+}
+
+.contacts__icon {
+  width: 13px;
+  height: 12px;
+
+  margin-right: 10px;
+}

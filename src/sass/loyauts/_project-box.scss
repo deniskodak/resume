@@ -1,0 +1,74 @@
+.project-box {
+  margin-bottom: 55px;
+}
+
+.project__title {
+  @extend %sub-title;
+  font-size: 22px;
+
+  margin-bottom: 20px;
+}
+
+.project__list {
+  list-style: none;
+}
+
+.project__item {
+  display: flex;
+  align-items: center;
+
+  &:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  &:nth-child(1) .project__link:hover,
+  &:nth-child(1) .project__link:focus {
+    background-image: url(.././images/webstudio_desktop_1x.jpg);
+  }
+
+  &:nth-child(2) .project__link:hover,
+  &:nth-child(2) .project__link:focus {
+    background-image: url(.././images/barber_desktop_1x.jpg);
+  }
+
+  &:nth-child(3) .project__link:hover,
+  &:nth-child(3) .project__link:focus {
+    background-image: url(.././images/icecream_desktop_1x.jpg);
+  }
+}
+.project__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 180px;
+  height: auto;
+
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+
+  transition: ease-in 200ms;
+  &:hover,
+  &:focus {
+    .project__icon {
+      opacity: 0;
+    }
+
+    transform: scale(1.1);
+    box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px -7px rgba(0, 0, 0, 0);
+  }
+}
+
+.project__icon {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+.project__description {
+  width: calc(100% - 10px / 2);
+
+  margin-left: 10px;
+  font-size: 14px;
+}

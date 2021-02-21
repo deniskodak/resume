@@ -1,0 +1,21 @@
+.tech-skills {
+  padding: 0 40px 0;
+  margin-bottom: 55px;
+}
+
+.tech__title {
+  @extend %title;
+
+  margin-bottom: 20px;
+}
+
+.tech__item {
+  margin-left: 15px;
+
+  color: $aside-hover;
+}
+
+.tech__text {
+  text-transform: uppercase;
+  color: $text-black;
+}

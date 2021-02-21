@@ -1,0 +1,32 @@
+.courses-box {
+  margin-bottom: 55px;
+}
+.courses__subbox {
+  &:not(:last-child) {
+    margin-bottom: 25px;
+  }
+}
+
+.courses__title {
+  @extend %sub-title;
+  font-size: 22px;
+
+  margin-bottom: 10px;
+}
+
+.courses__name {
+  @extend %item-name;
+  font-size: 16px;
+
+  margin-bottom: 15px;
+}
+
+.courses__proffesion {
+  color: $aside-hover;
+}
+
+.courses__date {
+  @extend %date;
+
+  font-size: 12px;
+}

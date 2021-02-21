@@ -1,0 +1,28 @@
+.eductation-box {
+}
+
+.education__title {
+  @extend %sub-title;
+  font-size: 22px;
+
+  margin-bottom: 10px;
+}
+
+.education__name {
+  @extend %item-name;
+  font-size: 16px;
+  color: $aside-hover;
+
+  margin-bottom: 15px;
+}
+
+.education__proffesion {
+  font-size: 14px;
+
+  margin-bottom: 10px;
+}
+
+.education__date {
+  @extend %date;
+  font-size: 12px;
+}
