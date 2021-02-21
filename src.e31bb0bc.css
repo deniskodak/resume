@@ -1,0 +1,335 @@
+body {
+  font-family: "DM Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+  letter-spacing: 0.04em;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.soft__title, .tech__title, .contacts__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 22px;
+  font-weight: 600;
+  color: #a7715f;
+}
+
+.education__title, .courses__title, .project__title {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+}
+
+.education__name, .courses__name {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+
+.education__date, .courses__date {
+  line-height: 2;
+  color: #a8a8a8;
+}
+
+.container {
+  display: flex;
+  max-width: 1280px;
+}
+
+.socials__list {
+  list-style: none;
+  display: flex;
+  justify-content: start;
+}
+
+.socials__item:first-child {
+  margin-right: 30px;
+}
+
+.socials__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  transition: linear 200ms;
+}
+.socials__link:hover, .socials__link:focus {
+  background-color: #a7715f;
+  fill: whitesmoke;
+}
+
+.socials__icon {
+  color: currentColor;
+  width: 17px;
+  height: 17px;
+}
+
+.header-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  background-image: url(/header_1x.cd3ecf11.jpg);
+  background-position: 13% 80%;
+}
+
+.header__title {
+  color: #d7b9b9;
+}
+
+.aside-section {
+  width: 370px;
+  padding-top: 30px;
+  padding-bottom: 55px;
+  background-color: #abadae59;
+}
+
+.aside__img-box {
+  width: 370px;
+  border-radius: 5%;
+  overflow: hidden;
+}
+
+.contacts {
+  padding: 60px 40px 0px;
+  margin-bottom: 55px;
+}
+
+.contacts__title {
+  margin-bottom: 20px;
+}
+
+.contacts__list {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.contacts__item:first-child {
+  margin-bottom: 5px;
+}
+
+.contacts__link {
+  position: relative;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  transition: linear 200ms;
+}
+.contacts__link:hover, .contacts__link:focus {
+  transform: translateY(-10%);
+  color: #a7715f;
+  fill: #a7715f;
+}
+
+.contacts__icon {
+  width: 13px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.tech-skills {
+  padding: 0 40px 0;
+  margin-bottom: 55px;
+}
+
+.tech__title {
+  margin-bottom: 20px;
+}
+
+.tech__item {
+  margin-left: 15px;
+  color: #a7715f;
+}
+
+.tech__text {
+  text-transform: uppercase;
+  color: #000;
+}
+
+.soft-skills {
+  padding: 0 40px 0;
+}
+
+.soft__item {
+  margin-left: 15px;
+  color: #a7715f;
+}
+
+.soft__title {
+  margin-bottom: 20px;
+}
+
+.soft__text {
+  color: #000;
+  text-transform: uppercase;
+}
+
+.about-section {
+  padding: 90px 70px;
+  width: 910px;
+}
+
+.about__main-info {
+  margin-bottom: 60px;
+}
+
+.about__profesion-title {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 10px;
+}
+
+.about__title {
+  font-family: "Raleway", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.9;
+  margin-bottom: 20px;
+}
+
+.about__text {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.16;
+  font-style: italic;
+}
+
+.project-box {
+  margin-bottom: 55px;
+}
+
+.project__title {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.project__list {
+  list-style: none;
+}
+
+.project__item {
+  display: flex;
+  align-items: center;
+}
+.project__item:not(:last-child) {
+  margin-bottom: 10px;
+}
+.project__item:nth-child(1) .project__link:hover, .project__item:nth-child(1) .project__link:focus {
+  background-image: url(/webstudio_desktop_1x.00a26155.jpg);
+}
+.project__item:nth-child(2) .project__link:hover, .project__item:nth-child(2) .project__link:focus {
+  background-image: url(/barber_desktop_1x.40a2db1c.jpg);
+}
+.project__item:nth-child(3) .project__link:hover, .project__item:nth-child(3) .project__link:focus {
+  background-image: url(/icecream_desktop_1x.f57be2c3.jpg);
+}
+
+.project__link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 180px;
+  height: auto;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  transition: ease-in 200ms;
+}
+.project__link:hover, .project__link:focus {
+  transform: scale(1.1);
+  box-shadow: 0px 10px 13px -7px #000000, 5px 5px 15px -7px rgba(0, 0, 0, 0);
+}
+.project__link:hover .project__icon, .project__link:focus .project__icon {
+  opacity: 0;
+}
+
+.project__icon {
+  display: block;
+  width: 50px;
+  height: auto;
+}
+
+.project__description {
+  width: calc(100% - 10px / 2);
+  margin-left: 10px;
+  font-size: 14px;
+}
+
+.courses-box {
+  margin-bottom: 55px;
+}
+
+.courses__subbox:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.courses__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.courses__name {
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+.courses__proffesion {
+  color: #a7715f;
+}
+
+.courses__date {
+  font-size: 12px;
+}
+
+.education__title {
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.education__name {
+  font-size: 16px;
+  color: #a7715f;
+  margin-bottom: 15px;
+}
+
+.education__proffesion {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.education__date {
+  font-size: 12px;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
